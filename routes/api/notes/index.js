@@ -7,4 +7,9 @@ router.get('/', async (req, res) => {
     res.send(db);    
 });
 
+router.post('/', async (req, res) => {
+    const db = fs.readFileSync('./db/db.json')
+    res.json(db);
+});
+
 module.exports = router;
