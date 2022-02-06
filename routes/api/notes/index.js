@@ -2,12 +2,12 @@ const router = require('express').Router();
 // const db = require('../../../db/db.json');
 const fs = require('fs');
 
-router.get('/', async (req, res) => {
+router.get('/', (req, res) => {
     const db = fs.readFileSync('./db/db.json', 'utf8')
     res.send(db);    
 });
 
-router.post('/', async (req, res) => {
+router.post('/api/notes', (req, res) => {
     const db = fs.readFileSync('./db/db.json')
     res.json(db);
 });
