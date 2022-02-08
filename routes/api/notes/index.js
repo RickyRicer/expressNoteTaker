@@ -7,7 +7,7 @@ router.get('/', (req, res) => {
     res.send(db);    
 });
 
-router.post('/api/notes', (req, res) => {
+router.post('/', (req, res) => {
     const db = fs.readFileSync('./db/db.json')
     res.json(db);
 });
