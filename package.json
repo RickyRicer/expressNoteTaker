@@ -1,4 +1,22 @@
 {
+  "name": "expressnotetaker",
+  "version": "1.0.0",
+  "description": "## Your Task",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RickyRicer/expressNoteTaker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RickyRicer/expressNoteTaker/issues"
+  },
+  "homepage": "https://github.com/RickyRicer/expressNoteTaker#readme",
   "dependencies": {
     "express": "^4.17.2",
     "uuid": "^8.3.2"
