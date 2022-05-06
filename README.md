@@ -15,7 +15,8 @@
 ## Installation
 💾 Clone the repo, then run NPM Install to install the correct packages
 ## Usage
-💻 Placeholder for images
+💻 Here is a screenshot of the app:
+[![Product Name Screen Shot][product-screenshot]](#)
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 <br />
@@ -33,4 +34,6 @@ Find me on GitHub: [RickyRicer](https://github.com/RickyRicer)<br />
 ✉️ Email me with any questions: rick.ansay@gmail.com<br /><br />
 🖖_This README was generated with ❤️ by [README-generator](https://github.com/RickyRicer/README-Generator) 🔥🔥🔥_
     
-  
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[product-screenshot]: assets/demo.png
